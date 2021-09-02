@@ -1,0 +1,16 @@
+.card {
+    margin: 35px;
+}
+
+
+#show_book_details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
